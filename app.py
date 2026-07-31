@@ -5,9 +5,11 @@ st.set_page_config(page_title="Tablero NPS & Voz del Cliente", layout="wide")
 
 st.title("📊 Tablero Unificado de Experiencia del Cliente")
 
-@st.cache_data(ttl=60)
+URL_GOOGLE_SHEETS = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRcleLdwDznQXnr8BS7PTM17lIpuLNu_N2XHu0BACSnijENbdIYomxWe0tw5Xw_mpBncug0pI0X-5eq/pub?output=csv"
+
+@st.cache_data(ttl=10)
 def load_data():
-    return pd.read_csv("respuestas_nps.csv")
+    return pd.read_csv(URL_GOOGLE_SHEETS)
 
 try:
     df = load_data()
