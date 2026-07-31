@@ -1,0 +1,8 @@
+id,fecha,area,score_nps,verbatim,motivo,ia_extracto,ia_sentimiento
+RESP-001,2026-07-01,Soporte,9,Excelente atención de soporte contestaron rápido,Atención,Respuesta rápida por soporte,Positivo
+RESP-002,2026-07-02,Ventas,4,El vendedor tardó mucho en mandar la cotización,Tiempo de respuesta,Demora en cotización de ventas,Negativo
+RESP-003,2026-07-03,Producto,10,La nueva funcionalidad nos ahorra horas de trabajo,Funcionalidad,Ahorro de tiempo por nueva función,Positivo
+RESP-004,2026-07-04,Soporte,2,No supieron resolver mi problema técnico,Calidad técnica,Falta de solución técnica,Negativo
+RESP-005,2026-07-05,Postventa,7,El servicio es bueno pero la facturación es confusa,Facturación,Facturación poco clara,Neutral
+RESP-006,2026-07-06,Ventas,10,Nos explicaron todo muy bien en la demo,Atención,Buena demo explicativa,Positivo
+RESP-007,2026-07-07,Producto,5,La plataforma se cae a veces a la tarde,Estabilidad,Plataforma inestable en la tarde,Negativo
